@@ -74,8 +74,8 @@ GitHub link for the project:(https://github.com/hossamadel23895/TicTacToe_Game_U
 
 # Team Members
 ---------------
-Amira Emad Mohamed
-Dina Alaa Abdelkhalek
-Hadeer Mostafa Abd EL-Aal
-Hossam Adel Hassanien Elsayed
-Youssef Ibrahim Salama
+- Amira Emad Mohamed
+- Dina Alaa Abdelkhalek
+- Hadeer Mostafa Abd EL-Aal
+- Hossam Adel Hassanien Elsayed
+- Youssef Ibrahim Salama
