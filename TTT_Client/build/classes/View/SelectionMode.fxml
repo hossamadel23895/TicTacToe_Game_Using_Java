@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="605.0" prefWidth="637.0" styleClass="background" stylesheets="@style/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SelectionModeController">
+    <children>
+        <Text fx:id="logedInUserName" fill="WHITE" layoutX="186.0" layoutY="61.0" smooth="false" strokeMiterLimit="0.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="draw_text" wrappingWidth="220.5576171875">
+            <font>
+                <Font name="Andalus" size="40.0" />
+            </font>
+        </Text>
+        <Button layoutX="194.0" layoutY="120.0" mnemonicParsing="false" onAction="#singlePlayer" prefHeight="70.0" prefWidth="250.0" styleClass="main_button" stylesheets="@style/styles.css" text="Play VS Comp." />
+        <Button layoutX="194.0" layoutY="221.0" mnemonicParsing="false" onAction="#multiplayer" prefHeight="70.0" prefWidth="250.0" styleClass="main_button" stylesheets="@style/styles.css" text="Play Vs Player" />
+        <Button layoutX="229.0" layoutY="435.0" mnemonicParsing="false" onAction="#logout" prefHeight="70.0" prefWidth="180.0" styleClass="main_button_lose" stylesheets="@style/styles.css" text="Exit" />
+        <Button layoutX="194.0" layoutY="325.0" mnemonicParsing="false"  onAction="#replayBtnHandler" prefHeight="70.0" prefWidth="250.0" styleClass="main_button" text="View Replays" />
+        <Text layoutX="22.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="avarage_text" text="Welcome :" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" styleClass="background" stylesheets="@style/styles.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SelectLevelController">
+    <children>
+        <Button layoutX="213.0" layoutY="127.0" mnemonicParsing="false" onAction="#easy" prefHeight="70.0" prefWidth="175.0" styleClass="main_button" stylesheets="@style/styles.css" text="Easy" />
+        <Button layoutX="213.0" layoutY="238.0" mnemonicParsing="false" onAction="#medium" prefHeight="70.0" prefWidth="175.0" styleClass="main_button" stylesheets="@style/styles.css" text="Medium" />
+        <Button layoutX="213.0" layoutY="344.0" mnemonicParsing="false" onAction="#hard" prefHeight="70.0" prefWidth="175.0" styleClass="main_button" stylesheets="@style/styles.css" text="Hard" />
+        <Button layoutX="239.0" layoutY="471.0" mnemonicParsing="false" onAction="#back" prefHeight="70.0" prefWidth="122.0" styleClass="main_button_lose" stylesheets="@style/styles.css" text="Back" />
+        <Text layoutX="169.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lose_text" text="Choose a Difficulty" />
+    </children>
+</AnchorPane>

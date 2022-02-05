@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minWidth="-Infinity" prefHeight="800.0" prefWidth="733.0" styleClass="background" stylesheets="@../styles/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ServerSceneController">
+   <children>
+      <Label layoutX="99.0" prefHeight="104.0" prefWidth="678.0" styleClass="header_text" stylesheets="@../styles/styles.css" text="Tic Tac Toe Server Side" textAlignment="RIGHT">
+         <font>
+            <Font name="Bodoni MT Bold" size="65.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.719047619047619" endY="0.19999999999999996">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9925925731658936" green="0.9983950853347778" blue="1.0" />
+                     </color></Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9578947424888611" green="0.9578947424888611" blue="0.9578947424888611" />
+                     </color></Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TableView fx:id="dataTable" layoutX="147.0" layoutY="92.0" opacity="0.8" prefHeight="474.0" prefWidth="438.0">
+        <columns>
+          <TableColumn fx:id="userName" prefWidth="211.0" text="User Name" />
+          <TableColumn fx:id="score" prefWidth="218.0" text="Score" />
+            <TableColumn fx:id="statusString" prefWidth="200.0" text="Status" />
+        </columns>
+         <columnResizePolicy>
+           
+         </columnResizePolicy>
+      </TableView>
+      <Button fx:id="turnONBtn" layoutX="99.0" layoutY="613.0" mnemonicParsing="false" onAction="#startServerConnection" prefHeight="70.0" prefWidth="163.0" styleClass="main_button_win" stylesheets="@../styles/styles.css" text="Start" />
+      <Button fx:id="turnOFFBtn" layoutX="453.0" layoutY="613.0" mnemonicParsing="false" onAction="#stopServerConnection" prefHeight="70.0" prefWidth="163.0" styleClass="main_button_lose" stylesheets="@../styles/styles.css" text="Stop" textFill="#e7e3e3" />
+   </children>
+</AnchorPane>

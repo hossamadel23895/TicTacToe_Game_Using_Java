@@ -1,0 +1,133 @@
+.background {
+    -fx-background-color: rgb(45,55,70);
+}
+
+.main_button{
+    -fx-background-color: rgb(55,70,85);
+    -fx-background-radius : 20 20 20 20;
+    -fx-border-radius : 15 15 15 15;
+    -fx-border-color : rgb(40, 50, 65);
+    -fx-border-width : 2px;
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(220,220,220); 
+}
+
+.main_button_win{
+    -fx-background-color: rgb(0,70,0);
+    -fx-background-radius : 20 20 20 20;
+    -fx-border-radius : 15 15 15 15;
+    -fx-border-color : rgb(0,60, 0);
+    -fx-border-width : 2px;
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(220,220,220); 
+}
+
+.main_button_lose{
+    -fx-background-color: rgb(70,0,0);
+    -fx-background-radius : 20 20 20 20;
+    -fx-border-radius : 15 15 15 15;
+    -fx-border-color : rgb(60, 0, 0);
+    -fx-border-width : 2px;
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(220,220,220); 
+}
+
+.game_grid_button {
+    -fx-background-color: rgb(55,70,85);
+    -fx-background-radius : 20 20 20 20;
+    -fx-border-radius : 15 15 15 15;
+    -fx-border-color : rgb(40, 50, 65);
+    -fx-border-width : 2px;
+    -fx-font-size: 80;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(220,220,220);
+    -fx-alignment: center;
+}
+
+.game_grid_button_win {
+    -fx-background-color: rgb(0,70,0);
+    -fx-background-radius : 20 20 20 20;
+    -fx-border-radius : 15 15 15 15;
+    -fx-border-color : rgb(0, 60, 0);
+    -fx-border-width : 2px;
+    -fx-font-size: 80;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(220,220,220);
+    -fx-alignment: center;
+}
+
+.game_grid_button_lose {
+    -fx-background-color: rgb(70,0,0);
+    -fx-background-radius : 20 20 20 20;
+    -fx-border-radius : 15 15 15 15;
+    -fx-border-color : rgb(60, 0, 0);
+    -fx-border-width : 2px;
+    -fx-font-size: 80;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(220,220,220);
+    -fx-alignment: center;
+}
+
+.game_grid_button:hover {
+    -fx-background-color: rgb(120,120,120);
+    -fx-background-radius : 20 20 20 20;
+    -fx-border-radius : 15 15 15 15;
+    -fx-border-color : rgb(40, 50, 65);
+    -fx-border-width : 2px;
+    -fx-font-size: 80;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(220,220,220);
+}
+
+.game_grid_button:pressed {
+    -fx-background-color: rgb(160,160,160);
+    -fx-background-radius : 20 20 20 20;
+    -fx-border-radius : 15 15 15 15;
+    -fx-border-color : rgb(40, 50, 65);
+    -fx-border-width : 2px;
+    -fx-font-size: 80;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(220,220,220);
+}
+
+.header_text {
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+    -fx-fill: rgb(220,220,220);
+}
+
+.avarage_text {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-fill: rgb(220,220,220);
+}
+
+.win_text {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-fill: rgb(255,255,255);
+    -fx-stroke: rgb(0,70,0);
+    -fx-stroke-width: 3;
+    -fx-stroke-line-join: round;
+}
+
+.lose_text {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-fill: rgb(255,255,255);
+    -fx-stroke: rgb(70,0,0);
+    -fx-stroke-width: 3;
+    -fx-stroke-line-join: round;
+}
+
+.draw_text {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-fill: rgb(255,255,255);
+    -fx-stroke: rgb(70,70,70);
+    -fx-stroke-width: 2;
+    -fx-stroke-line-join: round;
+}
